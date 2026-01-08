@@ -1,0 +1,4 @@
+statefulset:
+  replicas: 1
+  imageURL: pravakula/mongodb
+  imageversion: v1
