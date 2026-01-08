@@ -1,3 +1,4 @@
 statefulset:
+  replicas: 1
   imageURL: redis   
   imageversion: 7.0
