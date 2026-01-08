@@ -27,7 +27,7 @@ spec:
   # This is PVC
   volumeClaimTemplates:
   - metadata:
-      name: redis
+      name: redis-data
     spec:
       accessModes: [ "ReadWriteOnce" ]
       storageClassName: "roboshop-ebs"
