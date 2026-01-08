@@ -1,0 +1,8 @@
+#SC is created by K8s Admin when you asked for it
+apiVersion: storage.k8s.io/v1
+kind: StorageClass
+metadata:
+  name: roboshop-ebs
+reclaimPolicy: Delete
+provisioner: ebs.csi.aws.com
+volumeBindingMode: WaitForFirstConsumer
