@@ -22,7 +22,7 @@ spec:
       - name: redis
         image: "{{ .Values.statefulset.imageURL }}:{{ .Values.statefulset.imageversion }}"
         volumeMounts:
-        - name: redis
+        - name: redis-data
           mountPath: /data
   # This is PVC
   volumeClaimTemplates:
